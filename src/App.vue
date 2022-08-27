@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <home-view></home-view>
-    <about-view></about-view>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+    </nav>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HomeView from './views/HomeView.vue';
-import AboutView from './views/AboutView.vue';
+
 
 export default {
   name: 'App',
-  components: {
-    HomeView,
-    AboutView,
-  }
+
 }
 </script>
 
