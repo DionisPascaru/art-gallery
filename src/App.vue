@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Gallery</router-link>
-      <router-link to="/events">Events</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/comming-soon">Comming soon</router-link>
-      <router-link to="/contact">Contact</router-link>
-    </nav>
-    <router-view></router-view>
+    <el-container>
+      <el-header>
+        <navigation-bar></navigation-bar>
+      </el-header>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+    </el-container>
   </div>
 </template>
 
 <script>
-
+import NavigationBar from './components/NavigationBar.vue';
 
 export default {
   name: 'App',
-
+  components: {
+    NavigationBar
+  }
 }
 </script>
 
