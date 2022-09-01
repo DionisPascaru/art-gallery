@@ -6,7 +6,7 @@ import ContactView from '../views/ContactView';
 
 export default [
     {
-        path: '/',
+        path: '/gallery',
         name: 'GalleryView',
         component: GalleryView
     },
@@ -16,7 +16,7 @@ export default [
         component: EventsView
     },
     {
-        path: '/about',
+        path: '/',
         name: 'AboutView',
         component: AboutView
     },

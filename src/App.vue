@@ -22,13 +22,28 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.el-container {
+  .el-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+  }
+
+  .el-main {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+  }
 }
 </style>

@@ -1,5 +1,7 @@
 <template>
-        <h1>Gallery</h1>
+    <div>
+        <h1>GalleryView</h1>
+    </div>
 </template>
 
 <script>

@@ -38,6 +38,8 @@ export default {
 .navigation-bar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
 
     &.el-menu.el-menu--horizontal {
         border: none;
