@@ -17,31 +17,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.author {
-    height: 100%;
-}
 
-.author-animated-block {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-    img {
-        width: auto;
-    }
-}
-
-.author-name {
-    position: absolute;
-    left: 200px;
-    bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    span {
-        font-size: 86px;
-    }
-}
 </style>
