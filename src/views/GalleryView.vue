@@ -1,11 +1,16 @@
 <template>
     <div>
-        <h1>GalleryView</h1>
+        <gallery-animation-component></gallery-animation-component>
     </div>
 </template>
 
 <script>
+import GalleryAnimationComponent from '../components/gallery/GalleryAnimationComponent.vue';
+
 export default {
-    name: 'GalleryView'
+    name: 'GalleryView',
+    components: {
+        GalleryAnimationComponent
+    }
 }
 </script>
