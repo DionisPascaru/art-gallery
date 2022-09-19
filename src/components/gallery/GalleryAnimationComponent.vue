@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <div class="gallery-frame">
-            <img :src="getImgUrl()" alt="">
+    <div class="gallery">
+        <div class="gallery-frame" v-for="(frame, index) in data" :key="index" :class="{active: isActive(index)}">
+            <img :src="getImgUrl(frame.frameName)" alt="">
         </div>
     </div>
 </template>
@@ -24,8 +24,11 @@ export default {
         });
     },
     methods: {
-        getImgUrl() {
-            return require(`@/assets/animations/${this.data[this.count].frameName}`);
+        getImgUrl(fileName) {
+            return require(`@/assets/animations/${fileName}`);
+        },
+        isActive(index){
+            return this.count == index; 
         },
         animation(deltaY){
             if(deltaY >= 0) {
@@ -64,23 +67,38 @@ export default {
                 } else {
                     this.scrollSteps = this.count;
                 }
-            }      
+            }     
         },    
     }
 }
 </script>
 
 <style lang="scss" scoped>
+.gallery {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
 .gallery-frame {
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
 
     img {
         width: auto;
         height: 100vh;
+    }
+
+    &.active {
+        display: flex;
     }
 }
 
