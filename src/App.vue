@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-container>
+    <el-container v-if="!loading">
       <el-header>
         <navigation-bar></navigation-bar>
       </el-header>
@@ -8,16 +8,29 @@
         <router-view></router-view>
       </el-main>
     </el-container>
+    <intro-component v-if="loading"></intro-component>
   </div>
 </template>
 
 <script>
 import NavigationBar from './components/NavigationBar.vue';
+import IntroComponent from './components/IntroComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    NavigationBar
+    NavigationBar,
+    IntroComponent
+  },
+  data(){
+    return {
+      loading: true
+    }
+  },
+  mounted(){
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000)
   }
 }
 </script>
