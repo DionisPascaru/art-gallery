@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "fileName": "revolutie-de-sticle-rosie.png",
+            "name": "Revoluție de sticlă. ROȘU",
+            "size": "50cm x 50cm",
+            "year": "2022",
+            "orientation": true                
+        },
+        {
+            "id": 2,
+            "fileName": "distractie.png",
+            "name": "Montparnasse",
+            "size": "130cm x 40cm",
+            "year": "2021",
+            "orientation": false
+        },
+        {
+            "id": 3,
+            "fileName": "vrajitoare.png",
+            "name": "Vrăjitoare",
+            "size": "100cm x 50cm",
+            "year": "2020",
+            "orientation": false
+        },
+        {
+            "id": 4,
+            "fileName": "nude.png",
+            "name": "Nude",
+            "size": "130cm x 40cm",
+            "year": "2021",
+            "orientation": false
+        },
+        {
+            "id": 5,
+            "fileName": "lilith.png",
+            "name": "Lilith",
+            "size": "130cm x 40cm",
+            "year": "2020",
+            "orientation": false
+        },
+        {
+            "id": 6,
+            "fileName": "fii-tacere.png",
+            "name": "Fii tăcere",
+            "size": "180cm x 60cm",
+            "year": "2021",
+            "orientation": true
+        }
+    ]
+}

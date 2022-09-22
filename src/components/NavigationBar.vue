@@ -11,13 +11,13 @@
             <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}">
                 <span>Gallery</span>
             </el-menu-item>
-            <el-menu-item index="EventsView" :route="{ name: 'EventsView'}">
+            <el-menu-item v-if="false" index="EventsView" :route="{ name: 'EventsView'}">
                 <span>Events</span>
             </el-menu-item>
             <el-menu-item index="AboutView" :route="{ name: 'AboutView'}">
                 <span>About</span>
             </el-menu-item>
-            <el-menu-item index="CommingSoonView" :route="{ name: 'CommingSoonView'}">
+            <el-menu-item v-if="false" index="CommingSoonView" :route="{ name: 'CommingSoonView'}">
                 <span>Comming soon</span>
             </el-menu-item>
             <el-menu-item index="ContactView" :route="{ name: 'ContactView'}">
@@ -43,13 +43,13 @@
                 <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}" @click="this.collabseMenu">
                     <span>Gallery</span>
                 </el-menu-item>
-                <el-menu-item index="EventsView" :route="{ name: 'EventsView'}" @click="this.collabseMenu">
+                <el-menu-item index="EventsView" v-if="false" :route="{ name: 'EventsView'}" @click="this.collabseMenu">
                     <span>Events</span>
                 </el-menu-item>
                 <el-menu-item index="AboutView" :route="{ name: 'AboutView'}" @click="this.collabseMenu">
                     <span>About</span>
                 </el-menu-item>
-                <el-menu-item index="CommingSoonView" :route="{ name: 'CommingSoonView'}" @click="this.collabseMenu">
+                <el-menu-item index="CommingSoonView" v-if="false" :route="{ name: 'CommingSoonView'}" @click="this.collabseMenu">
                     <span>Comming soon</span>
                 </el-menu-item>
                 <el-menu-item index="ContactView" :route="{ name: 'ContactView'}" @click="this.collabseMenu">

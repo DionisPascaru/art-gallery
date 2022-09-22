@@ -7,6 +7,14 @@
             <span>Victor</span>
             <span>Teslaru</span>
         </div>
+        <div class="author-info">
+            <span>Vârsta : 27</span>
+            <span>Activitate : Pictor contemporan</span>
+            <span>Tipul : artă contemporană</span>
+            <span>Tehnica : ulei pe pânză</span>
+            <span>Origine :  Republica Moldova</span>
+            <span>Subiectul principal : nuduri feminine</span>
+        </div>
     </div>
 </template>
 
