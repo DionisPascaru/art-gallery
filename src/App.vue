@@ -53,8 +53,6 @@ export default {
     }
 
   .el-main {
-    height: 100vh;
-    overflow: hidden;
     padding: 0;
   }
 }
