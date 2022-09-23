@@ -37,12 +37,11 @@ export default {
     .gallery-portrait {
         width: fit-content;
         margin: auto;
-        height: calc(100vh - 200px);
         padding: 30px;
+        max-width: 500px;
         
         img {
-            width: auto;
-            height: calc(100% - 30px);
+            width: 100%;
         }
     }
 }
@@ -77,8 +76,7 @@ export default {
             padding: 100px;
 
             img {
-                width: auto;
-                height: calc(100% - 100px);
+                width: 100%;
             }
         }
     }
