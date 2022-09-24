@@ -16,7 +16,7 @@
         Republica Moldova.
       </p>
       <p>
-        In avantul sau artistic, pictorul adoptă tehnica de "ulei pe panza",
+        In avantul sau artistic, pictorul adopta tehnica de "ulei pe panza",
         axandu-se la inceputurile sale, pe tematica de "nuduri feminine". Victor
         Teslaru picteaza emotie si stari, iar Nudul reprezinta pentru el cea mai
         apropiata forma de exprimare artistica, de sufletul sau.
