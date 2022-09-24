@@ -2,20 +2,15 @@
   <div>
     <div class="author">
       <div class="author-animated-block"></div>
+    </div>
+    <div class="logo">
+        <img src="@/assets/logo.png" alt="logo">
+      </div>
+    <div class="author-description container">
       <div class="author-name">
         <span>Victor</span>
         <span>Teslaru</span>
       </div>
-      <div class="author-info">
-        <span>Vârsta : 27</span>
-        <span>Activitate : Pictor contemporan</span>
-        <span>Tipul : artă contemporană</span>
-        <span>Tehnica : ulei pe pânză</span>
-        <span>Origine : Republica Moldova</span>
-        <span>Subiectul principal : nuduri feminine</span>
-      </div>
-    </div>
-    <div class="author-description container">
       <p>
         Victor Teslaru este un tanar artist si pictor contemporan, nascut in
         Republica Moldova.
@@ -42,4 +37,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

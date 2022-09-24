@@ -1,13 +1,18 @@
-.author {
-    height: 100vh;
-    overflow: hidden;
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    animation: fadeIn 1s ease-in-out;
+
+    img {
+        width: 80px;
+    }
 }
 
 .author-animated-block {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    max-width: 500px;
+    height: 100vh;
     margin: 30px;
     background-image: url('@/assets/author.png');
     background-repeat: no-repeat;
@@ -18,69 +23,26 @@
 
 .author-name {
     width: 100%;
-    position: absolute;
-    top: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    span {
-        font-size: 5.375rem;
-        color: $text-color-grey;
-        font-weight: 100;
-        line-height: 1.1;
-
-        &:nth-child(1) {
-            animation: fadeInRight 1s ease-in-out;
-        }
-
-        &:nth-child(2) {
-            animation: fadeInRight 1.5s ease-in-out;
-        }
-    }
-}
-
-.author-info {
-    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     position: absolute;
-    top: 160px;
+    top: 200px;
     left: 0;
     right: 0;
-    display: flex;
-    flex-direction: column;  
-    align-items: center;  
-    padding: 20px 15px;
+    animation: fadeIn 1.5s ease-in-out;
 
     span {
-        font-size: 1.75rem;
-        color: $text-color-grey;
-        font-weight: 100;
-        line-height: 1.2;
-
-        &:nth-child(1) {
-            animation: fadeInRight 1.5s ease-in-out;
-        }
-        &:nth-child(2) {
-            animation: fadeInRight 1.6s ease-in-out;
-        }
-        &:nth-child(3) {
-            animation: fadeInRight 1.7s ease-in-out;
-        }
-        &:nth-child(4) {
-            animation: fadeInRight 1.8s ease-in-out;
-        }
-        &:nth-child(5) {
-            animation: fadeInRight 1.9s ease-in-out;
-        }
-        &:nth-child(6) {
-            animation: fadeInRight 2s ease-in-out;
-        }
+        font-size: 2.5rem;
+        color: #fff;
+        font-weight: 400;
     }
 }
 
 .author-description {
     padding: 50px 15px;
-    text-align: start;
+    text-align: center;
 
     p {
         color: #fff;
@@ -89,7 +51,7 @@
     }
 }
 
-@keyframes fadeInRight {
+@keyframes fadeIn {
     from {
       opacity: 0;
     }
@@ -98,28 +60,21 @@
     }
 }
 
+/** ------ small -----**/
+@media only screen and (min-width: 576px) { 
+    .author-animated-block {
+        height: 800px;
+        margin: 30px auto;
+    }
+}
+
 /** ------ medium -----**/
 @media only screen and (min-width: 768px) {
-    .author-animated-block {
-        img {
-            width: auto;
-            height: 90%;
-            max-height: none;
-        }
+    .logo {
+        position: static;
     }
 
     .author-name {
-        width: auto;
-        top: auto;
-        left: 10%;
-        bottom: 10%;
-        align-items: flex-start;
-    }
-
-    .author-info {
-        top: auto;
-        right: 10%;
-        bottom: 10%;
-        align-items: flex-end;
+        position: static;
     }
 }

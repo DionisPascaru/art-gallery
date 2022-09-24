@@ -108,9 +108,10 @@ export default {
         font-size: 1.563rem;
         font-weight: 400;
 
+        &:focus span,
         &.is-active {
-            border-color: transparent;
-            color: unset;
+            color: #909399;
+            border-color: #909399;
         }
     }
 }

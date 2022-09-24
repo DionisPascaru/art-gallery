@@ -7,6 +7,9 @@
       <el-main>
         <router-view></router-view>
       </el-main>
+      <el-footer>
+        <copyright-component></copyright-component>
+      </el-footer>
     </el-container>
     <intro-component v-if="loading"></intro-component>
   </div>
@@ -14,13 +17,15 @@
 
 <script>
 import NavigationBar from './components/NavigationBar.vue';
-import IntroComponent from './components/IntroComponent.vue'
+import IntroComponent from './components/IntroComponent.vue';
+import CopyrightComponent from './components/CopyrightComponent.vue';
 
 export default {
   name: 'App',
   components: {
     NavigationBar,
-    IntroComponent
+    IntroComponent,
+    CopyrightComponent
   },
   data(){
     return {
