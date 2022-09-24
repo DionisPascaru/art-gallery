@@ -9,7 +9,7 @@
             mode="horizontal"
             :router="true">
             <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}">
-                <span>Gallery</span>
+                <span>Nudes exhibition</span>
             </el-menu-item>
             <el-menu-item v-if="false" index="EventsView" :route="{ name: 'EventsView'}">
                 <span>Events</span>
@@ -41,7 +41,7 @@
                 mode="horizontal"
                 :router="true">
                 <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}" @click="this.collabseMenu">
-                    <span>Gallery</span>
+                    <span>Nudes exhibition</span>
                 </el-menu-item>
                 <el-menu-item index="EventsView" v-if="false" :route="{ name: 'EventsView'}" @click="this.collabseMenu">
                     <span>Events</span>
