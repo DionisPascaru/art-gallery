@@ -6,7 +6,7 @@
             "name": "Revoluție de sticlă. ROȘU",
             "size": "50cm x 50cm",
             "year": "2022",
-            "orientation": true                
+            "orientation": true
         },
         {
             "id": 2,
@@ -46,6 +46,238 @@
             "name": "Fii tăcere",
             "size": "180cm x 60cm",
             "year": "2021",
+            "orientation": true
+        },
+        {
+            "id": 7,
+            "fileName": "mica-ii.jpeg",
+            "name": "Mica II",
+            "size": "30cm x 30cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 8,
+            "fileName": "embrace-silence.jpeg",
+            "name": "Embrace silence",
+            "size": "60cm x 180cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 9,
+            "fileName": "ava.jpeg",
+            "name": "Ava",
+            "size": "30cm x 70cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 10,
+            "fileName": "mother.jpeg",
+            "name": "Mother",
+            "size": "60cm x 60cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 11,
+            "fileName": "til-death-do-us-part.jpeg",
+            "name": "Til death do us part",
+            "size": "30cm x 42cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 12,
+            "fileName": "mannequin.jpg",
+            "name": "Mannequin",
+            "size": "90cm x 140cm",
+            "year": "2020",
+            "orientation": true
+        },
+        {
+            "id": 13,
+            "fileName": "smaralda.jpg",
+            "name": "Smaralda",
+            "size": "20cm x 25cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 14,
+            "fileName": "sara.jpeg",
+            "name": "Sara",
+            "size": "100cm x 100cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 15,
+            "fileName": "confuse.jpeg",
+            "name": "Confuse",
+            "size": "133cm x 163cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 16,
+            "fileName": "to-be.jpg",
+            "name": "To be",
+            "size": "90cm x 100cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 17,
+            "fileName": "ia.jpeg",
+            "name": "IA",
+            "size": "70cm x 90cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 18,
+            "fileName": "needle.jpeg",
+            "name": "Needle",
+            "size": "25cm x 35cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 19,
+            "fileName": "adventure.jpeg",
+            "name": "Adventure",
+            "size": "25cm x 35cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 20,
+            "fileName": "intimacy.jpg",
+            "name": "Intimacy",
+            "size": "150cm x 90cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 21,
+            "fileName": "pause.jpeg",
+            "name": "Pause",
+            "size": "42cm x 42cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 22,
+            "fileName": "youth.jpg",
+            "name": "Youth",
+            "size": "30cm x 35cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 23,
+            "fileName": "blue.jpg",
+            "name": "Blue",
+            "size": "70cm x 130cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 24,
+            "fileName": "the-white.jpg",
+            "name": "The white",
+            "size": "133cm x 163cm",
+            "year": "2021",
+            "orientation": true
+        },
+        {
+            "id": 25,
+            "fileName": "antagonista.jpg",
+            "name": "Antagonista",
+            "size": "180cm x 120cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 26,
+            "fileName": "sasha.jpg",
+            "name": "Sasha",
+            "size": "40cm x 60cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 27,
+            "fileName": "suspicious.jpg",
+            "name": "Suspicious",
+            "size": "20cm x 30cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 28,
+            "fileName": "cinderella.jpg",
+            "name": "Cinderella",
+            "size": "180cm x 180cm",
+            "year": "2021",
+            "orientation": true
+        },
+        {
+            "id": 29,
+            "fileName": "good-night.jpg",
+            "name": "Good night",
+            "size": "50cm x 50cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 30,
+            "fileName": "nude-2.jpeg",
+            "name": "Nude",
+            "size": "70cm x 110cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 31,
+            "fileName": "nude-3.jpeg",
+            "name": "Nude",
+            "size": "70cm x 120cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 32,
+            "fileName": "love.jpeg",
+            "name": "Love",
+            "size": "70cm x 90cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 33,
+            "fileName": "love.jpeg",
+            "name": "Love",
+            "size": "70cm x 90cm",
+            "year": "2022",
+            "orientation": true
+        },
+        {
+            "id": 34,
+            "fileName": "full-house.jpg",
+            "name": "Full house",
+            "size": "180cm x 180cm",
+            "year": "2023",
+            "orientation": true
+        },
+        {
+            "id": 35,
+            "fileName": "shambhala.jpg",
+            "name": "Shambhala",
+            "size": "70cm x 110cm",
+            "year": "2023",
             "orientation": true
         }
     ]
