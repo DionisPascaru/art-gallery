@@ -4,7 +4,7 @@
       <div class="author-animated-block"></div>
     </div>
     <div class="logo">
-        <img src="@/assets/logo.png" alt="logo">
+        <img src="@/assets/logo.svg" alt="logo">
       </div>
     <div class="author-description container">
       <div class="author-name">

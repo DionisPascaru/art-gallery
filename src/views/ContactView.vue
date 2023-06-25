@@ -1,9 +1,9 @@
 <template>
     <div class="contact">
-        <span>victorteslaruart@gmail.com</span>
         <a href="https://instagram.com/victor.teslaru?igshid=MTA0ZTI1NzA=">
             <img src="@/assets/instagram.png" alt="instagram">
         </a>
+      <span>victorteslaruart@gmail.com</span>
     </div>
 </template>
 
