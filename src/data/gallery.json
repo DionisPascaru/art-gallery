@@ -258,14 +258,6 @@
         },
         {
             "id": 33,
-            "fileName": "love-min.jpeg",
-            "name": "Love",
-            "size": "70cm x 90cm",
-            "year": "2022",
-            "orientation": true
-        },
-        {
-            "id": 34,
             "fileName": "full-house-min.jpg",
             "name": "Full house",
             "size": "180cm x 180cm",
@@ -273,7 +265,7 @@
             "orientation": true
         },
         {
-            "id": 35,
+            "id": 34,
             "fileName": "shambhala-min.jpg",
             "name": "Shambhala",
             "size": "70cm x 110cm",

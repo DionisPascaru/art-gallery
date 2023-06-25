@@ -1,6 +1,6 @@
 <template>
     <div class="copyright container">
-        <span>all rights © 2022</span>
+        <span>all rights © 2023</span>
     </div>
 </template>
 

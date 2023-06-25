@@ -9,7 +9,7 @@
             mode="horizontal"
             :router="true">
             <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}">
-                <span>Nudes exhibition</span>
+                <span>Gallery</span>
             </el-menu-item>
             <el-menu-item v-if="false" index="EventsView" :route="{ name: 'EventsView'}">
                 <span>Events</span>
@@ -92,60 +92,63 @@ export default {
 
 <style lang="scss" scoped>
 .navigation-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 100px;
+  margin: auto;
 
-    &.el-menu.el-menu--horizontal {
-        border: none;
+  &.el-menu.el-menu--horizontal {
+    border: none;
+  }
+
+  .el-menu-item {
+    background-color: transparent !important;
+    height: auto;
+    line-height: normal;
+    font-size: 1.563rem;
+    font-weight: 400;
+    border: none;
+
+    &:focus span,
+    &.is-active {
+      color: #303133;
+      border: none;
     }
-
-    .el-menu-item {
-        background-color: transparent !important;
-        height: auto;
-        line-height: normal;
-        font-size: 1.563rem;
-        font-weight: 400;
-
-        &:focus span,
-        &.is-active {
-            color: #909399;
-            border-color: #909399;
-        }
-    }
+  }
 }
 
 .navigation-bar-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    width: 100%;
-    height: 0;
-    background-color: #000;
-    transition: 1s;
-    min-height: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: 1s;
+  min-height: unset;
+
+  .el-menu-item {
+    font-size: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  &.active {
+    height: 100vh;
 
     .el-menu-item {
-        font-size: 0;
-        opacity: 0;
-        transition: opacity 1s ease-in-out;
+      font-size: 1.563rem;
+      margin: 15px 0;
+      opacity: 1;
     }
-
-    &.active {
-        height: 100vh;
-
-        .el-menu-item {
-            font-size: 1.563rem;
-            margin: 15px 0;
-            opacity: 1;
-        }
-    }
+  }
 }
 </style>
