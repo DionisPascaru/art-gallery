@@ -41,7 +41,7 @@
                 mode="horizontal"
                 :router="true">
                 <el-menu-item index="GalleryView" :route="{ name: 'GalleryView'}" @click="this.collabseMenu">
-                    <span>Nudes exhibition</span>
+                    <span>Gallery</span>
                 </el-menu-item>
                 <el-menu-item index="EventsView" v-if="false" :route="{ name: 'EventsView'}" @click="this.collabseMenu">
                     <span>Events</span>
@@ -97,7 +97,8 @@ export default {
   align-items: center;
   max-width: 1200px;
   min-height: 100px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 
   &.el-menu.el-menu--horizontal {
     border: none;
